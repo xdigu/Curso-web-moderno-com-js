@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercicio HTML</title>
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+        }
+    </style>
+    <link rel="stylesheet" href="listaAninhada.css">
 </head>
 
 <body>
@@ -14,9 +20,19 @@
     </header>
     <nav>
         <a href="exercicios/teste.html">00 - Teste</a>
+        <br>
+        <a href="exercicios/texto1.html">01 - Texto</a>
+        <br>
+        <a href="exercicios/texto2.html">02 - Texto</a>
+        <br>
+        <a href="exercicios/listas.html">03 - Listas</a>
+        <br>
+        <a href="exercicios/listaAninhada.html">04 - Lista Aninhada</a>
     </nav>
     <section id="conteudo"></section>
-    <footer><br>Curso de web moderno</footer>
+    <footer>
+        Curso de web moderno
+    </footer>
     <script>
         document.querySelectorAll('a').forEach(link => {
             const conteudo = document.getElementById('conteudo')

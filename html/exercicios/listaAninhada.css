@@ -1,0 +1,34 @@
+.tree * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.tree ul {
+    margin-left: 0.8em;
+}
+ 
+.tree ul li {
+    margin: 0 0.6em;
+    padding: 0 0.1em;
+    border-left: 1px solid rgb(100,100,100);
+}
+ 
+.tree ul li:last-child {
+    border-left: none;
+}
+ 
+.tree ul li::before {
+    position: relative;
+    top: -0.3em;
+    left: -0.1em;
+    width: 0.9em;
+    height: 1em;
+    display: inline-block;
+    border-bottom: 1px solid rgb(100,100,100);
+    content: "";
+}
+ 
+.tree ul li:last-child::before {
+    border-left: 1px solid rgb(100,100,100);
+}
