@@ -1,0 +1,12 @@
+{
+  "name": "curso-web-moderno-com-js",
+  "version": "1.0.0",
+  "description": "Exercícios e projetos do curso Web Moderno com JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.1.1"
+  }
+}
